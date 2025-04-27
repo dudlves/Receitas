@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Criar Receita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <h1>Receitas Deliciosas</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="criar.html">Criar Receita</a>
+      <a href="dicas.html">Dicas de Cozinha</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-cria">
+  <div class="titulo">
+    <h2>Criar Nova Receita</h2>
+  </div>
+
+  <form class="recipe-form">
+    <label for="recipe-name">Nome da Receita:</label>
+    <input type="text" id="recipe-name" name="recipe-name" required>
+
+    <label for="recipe-image">Imagem:</label>
+    <input type="file" id="recipe-image" name="recipe-image" accept="image/*" required>
+
+    <label for="ingredients">Ingredientes:</label>
+    <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+    <label for="instructions">Modo de Preparo:</label>
+    <textarea id="instructions" name="instructions" rows="6" required></textarea>
+
+    <button type="submit" class="btn-submit">Criar Receita</button>
+  </form>
+</main>
+<footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <p>&copy; 2025 Receitas Deliciosas. Todos os direitos reservados.</p>
+      <p>Feito com amor para compartilhar o prazer de cozinhar!</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      <a href="mailto:contato@receitasdeliciosas.com">Contato</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
